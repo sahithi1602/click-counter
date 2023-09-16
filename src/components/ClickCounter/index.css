@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.container {
+  background-color: #f1f5f8;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-height: 768px) {
+  .container {
+    height: 100vh;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  color: #2d3a35;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (min-height: 768px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+.count {
+  color: #c20a72;
+  font-size: 30px;
+}
+@media screen and (min-height: 768px) {
+  .count {
+    font-size: 40px;
+  }
+}
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #2d3a35;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  padding: 3px 3px 2px 2px;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
